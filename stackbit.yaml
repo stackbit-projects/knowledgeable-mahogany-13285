@@ -1,0 +1,136 @@
+stackbitVersion: ~0.3.0
+ssgName: hugo
+publishDir: public
+dataDir: data
+pagesDir: content
+assets:
+  referenceType: static
+  staticDir: static
+  uploadDir: assets
+  publicPath: /
+models:
+  months:
+    type: data
+    label: Months
+    file: months.yaml
+    fields:
+      - type: object
+        name: en
+        label: En
+        fields:
+          - type: string
+            name: '1'
+            label: '1'
+          - type: string
+            name: '2'
+            label: '2'
+          - type: string
+            name: '3'
+            label: '3'
+          - type: string
+            name: '4'
+            label: '4'
+          - type: string
+            name: '5'
+            label: '5'
+          - type: string
+            name: '6'
+            label: '6'
+          - type: string
+            name: '7'
+            label: '7'
+          - type: string
+            name: '8'
+            label: '8'
+          - type: string
+            name: '9'
+            label: '9'
+          - type: string
+            name: '10'
+            label: '10'
+          - type: string
+            name: '11'
+            label: '11'
+          - type: string
+            name: '12'
+            label: '12'
+      - type: object
+        name: pt-br
+        label: Pt Br
+        fields:
+          - type: string
+            name: '1'
+            label: '1'
+          - type: string
+            name: '2'
+            label: '2'
+          - type: string
+            name: '3'
+            label: '3'
+          - type: string
+            name: '4'
+            label: '4'
+          - type: string
+            name: '5'
+            label: '5'
+          - type: string
+            name: '6'
+            label: '6'
+          - type: string
+            name: '7'
+            label: '7'
+          - type: string
+            name: '8'
+            label: '8'
+          - type: string
+            name: '9'
+            label: '9'
+          - type: string
+            name: '10'
+            label: '10'
+          - type: string
+            name: '11'
+            label: '11'
+          - type: string
+            name: '12'
+            label: '12'
+      - type: object
+        name: fr
+        label: Fr
+        fields:
+          - type: string
+            name: '1'
+            label: '1'
+          - type: string
+            name: '2'
+            label: '2'
+          - type: string
+            name: '3'
+            label: '3'
+          - type: string
+            name: '4'
+            label: '4'
+          - type: string
+            name: '5'
+            label: '5'
+          - type: string
+            name: '6'
+            label: '6'
+          - type: string
+            name: '7'
+            label: '7'
+          - type: string
+            name: '8'
+            label: '8'
+          - type: string
+            name: '9'
+            label: '9'
+          - type: string
+            name: '10'
+            label: '10'
+          - type: string
+            name: '11'
+            label: '11'
+          - type: string
+            name: '12'
+            label: '12'
